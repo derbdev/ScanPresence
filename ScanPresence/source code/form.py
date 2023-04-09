@@ -98,9 +98,7 @@ class formConfig():
 if __name__ == "__main__":
     form = formConfig()
     form.createForm()
-
     form.saveQr()
     form.countResponses()
-    print()
     form.recordResponses()
     form.finish()
